@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Trello Dashboard</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/8a4c701887.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="container-header">
+         <header class="nav-bar-main">
+            <nav class="nav-bar">
+               <div class="home-items">
+                  <button class="button blend" id="home"><i class="fa-solid fa-house-user"></i></button>
+                  <button class="button blend" id="boards"><i class="fa-sharp fa-solid fa-list"></i> Boards</button>
+                  <input type="text" value="" name="search" id="search-main">
+               </div>
+               <div class="app-title">
+                  <h2 class="heading2">Tralala</h2>
+               </div>
+               <div class="nav-form">
+                  <button class="button blend" id="plus"><i class="fa-solid fa-plus"></i></button>
+                  <button class="button blend" id="signup"><i class="fa-solid fa-user-plus"></i></button>
+               </div>
+            </nav>
+            <section id="content-title">
+               <div class="title-main">
+                  <p class="para">Frontend Training</p>
+               </div>
+               <div class="menu-toggle">
+                  <button class="button para" id="show-menu"><i class="fa-solid fa-ellipsis-vertical"></i> Show
+                  menu</button>
+               </div>
+            </section>
+         </header>
+      </div>
+      <div class="container-body">
+         <div class="block" id="to-do">
+            <div class="title">
+               <h4 class="heading4">To Do</h4>
+               <button class="button close-small">...</button>
+            </div>
+            <div class="cards">
+               <div class="card">
+                  <input type="button" class="no-background" value="Learn HTML">
+                  <button class="no-background"><i class="fa-solid fa-pencil"></i></button>
+               </div>
+               <div class="card">
+                  <input type="button" class="no-background" value="Learn CSS">
+                  <button class="no-background"><i class="fa-solid fa-pencil"></i></button>
+               </div>
+               <div class="card">
+                  <input type="button" class="no-background" value="Learn Java script">
+                  <button class="no-background"><i class="fa-solid fa-pencil"></i></button>
+               </div>
+            </div>
+            <div class="add-card">
+               <button class="para-small button">+Add another card</button>
+            </div>
+         </div>
+         <div class="block" id="doing">
+            <div class="title">
+               <h4 class="heading4">Doing</h4>
+               <button class="button close-small">...</button>
+            </div>
+            <div class="cards">
+               <div class="card">
+                  <input type="button" class="no-background" value="Prepare resume">
+               </div>
+               <textarea name="task" id="card-content" cols="15" rows="4" placeholder="Enter a title for this card ..."
+                  class="card"></textarea>
+            </div>
+            <div class="add-card">
+               <button class="button add-btn">Add card</button>
+               <button class="button close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+         </div>
+         <div class="block" id="Test-verify">
+            <div class="title">
+               <h4 class="heading4">Testing/Verifying</h4>
+               <button class="button close-small">...</button>
+            </div>
+            <div class="cards">
+               <div class="card">
+                  <input type="button" class="no-background" value="Twitter app frontend">
+               </div>
+            </div>
+            <div class="add-card">
+               <button class="para-small button">+Add another card</button>
+            </div>
+         </div>
+         <div class="block" id="deploying">
+            <div class="title">
+               <h4 class="heading4">Deploying</h4>
+               <button class="button close-small">...</button>
+            </div>
+            <div class="cards">
+               <div class="card">
+                  <input type="button" class="no-background" value="Twitter app backend">
+               </div>
+            </div>
+            <div class="add-card">
+               <button class="para-small button">+Add another card</button>
+            </div>
+         </div>
+         <div class="block" id="done">
+            <div class="title">
+               <h4 class="heading4">Done</h4>
+               <button class="button close-small">...</button>
+            </div>
+            <div class="add-card">
+               <button class="para-small button">+Add another card</button>
+            </div>
+         </div>
+         <div class="block" id="add-anther-list">
+            <div class="add-card">
+               <button class="para-small button">+Add another card</button>
+            </div>
+         </div>
+         <div class="block" id="add-list">
+            <div class="cards">
+               <textarea name="task" id="list-content" cols="15" rows="4" placeholder="Enter a title for this card ..."
+                  class="card"></textarea>
+            </div>
+            <div class="add-card">
+               <button class="button add-btn">Add List</button>
+               <button class="button close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
